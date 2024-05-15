@@ -76,13 +76,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [x] Maybe change the color of the text so that you can always read it (e.g. white)
 - [x] figure out how to generate random colors on the website
 - [x] figure out how to create a button with the text 'Generate'
-- [ ] figure out how to change state when clicking the button
-  - [ ] Create a state
-  - [ ] Display the current state
-  - [ ] Connect the onchange event to update the state
-- [ ] figure out how to show a random color when the button is clicked
-- [ ] figure out how to connect this random color to the background color of a div
+- [x] figure out how to change state when clicking the button
+  - [x] Create a state
+  - [x] Display the current state
+  - [x] Connect the onchange event to update the state
+- [x] figure out how to show a random color when the button is clicked
+- [x] figure out how to connect this random color to the background color of a div
 - [x] figure out how to generate the hex code that matches the generated color
 - [x] the div must contain the exact text Generated Color: <background color hex code>
-- [ ]
-- [ ]
