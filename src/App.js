@@ -22,7 +22,7 @@ export default function App() {
           fontSize: '1.2rem',
         }}
       >
-        Buttonstate
+        Generate
       </button>
       <div
         style={{
@@ -34,7 +34,7 @@ export default function App() {
           padding: '10px',
         }}
       >
-        background color {generatedColor}
+        Generated Color: {generatedColor}
       </div>
     </>
   );
