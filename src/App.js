@@ -8,7 +8,17 @@ export default function App() {
   const generatedColor = randomColor();
   console.log(generatedColor);
   return (
-    <>
+    <div
+      style={{
+        backgroundColor: generatedColor,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        margin: '0px',
+        padding: '28vh',
+      }}
+    >
       <h1>Random Color Generator</h1>
       <button
         onClick={() => setNewValue(newValue === !true)}
@@ -20,6 +30,7 @@ export default function App() {
           color: '#FFFFFF',
           borderRadius: '5px',
           fontSize: '1.2rem',
+          overflow: 'hidden',
         }}
       >
         Generate
@@ -28,14 +39,14 @@ export default function App() {
         style={{
           color: '#FFFFFF',
           backgroundColor: generatedColor,
-          width: '800px',
-          margin: '50px',
-          fontSize: '100px',
+          margin: '0px',
+          fontSize: '11vh',
           padding: '10px',
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
         }}
       >
         Generated Color: {generatedColor}
       </div>
-    </>
+    </div>
   );
 }
